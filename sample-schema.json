@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "Bengali Multimodal Troll Analysis",
+    "annotator_id": "AN01"
+  },
+  "checkpoint": {
+    "current_index": 0,
+    "current_filename": "meme_0001.jpg",
+    "total_images": 1000,
+    "annotated": 0,
+    "skipped": 0
+  },
+  "annotations": [
+    {
+      "status": "annotated",
+      "image": {
+        "filename": "meme_0001.jpg",
+        "relative_path": "meme_0001.jpg"
+      },
+      "troll_detection": { "label": "troll" },
+      "target_identification": {
+        "category": "political_group",
+        "identity": "Example target"
+      },
+      "trolling_mechanism": {
+        "primary": "ironic_deceptive_framing",
+        "applicable": true
+      },
+      "explanation": {
+        "format_version": "structured_v1",
+        "components": {
+          "textual_contribution": "…",
+          "visual_contribution": "…",
+          "implied_message": "…",
+          "decision_justification": "…"
+        },
+        "final_text": "…"
+      },
+      "quality": {
+        "confidence": "high",
+        "external_context_required": "no",
+        "annotator_notes": null
+      }
+    }
+  ]
+}
