@@ -3,7 +3,7 @@
 A local, offline-first browser application for annotating Bengali memes for:
 
 1. Troll detection: `troll`, `non_troll`
-2. Target identification: 11 target categories plus optional canonical identity
+2. Target identification: 4 target categories plus optional canonical identity
 3. Trolling mechanism: DRD, CSR, IDF, PBT
 4. Structured explanation generation
 
